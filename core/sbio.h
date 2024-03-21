@@ -12,4 +12,4 @@
 
 int initSBio();
 float calculatePairwiseAlignmentScore(char *seq1, char *seq2, int length);
-char **insertGaps(char *seq, int length, int targetLength);
+char **insertGap(char *seq, int length, int targetLength, int *out_num);
